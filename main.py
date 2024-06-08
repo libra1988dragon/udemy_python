@@ -70,8 +70,25 @@
 # 그 이유는 len함수는 int값을 리턴하기 때문이다.
 # 파이썬에서 string과 int는 결합연산자로 결합을 할 수 없다.
 # 그래서 int를 string형으로 데이터 타입을 바꿔야 하는데 이떄 사용하는게 str함수이다.
-num_char = len(input("당신의 이름은 무엇인가요?"))
-print(num_char)
-print("당신의 이름은 " + num_char + " 글자네여 ")
-str_num_char = str(num_char)
-print("당신의 이름은 " + str_num_char + " 글자네여 ")
+# num_char = len(input("당신의 이름은 무엇인가요?"))
+# print(num_char)
+# print("당신의 이름은 " + num_char + " 글자네여 ")
+# str_num_char = str(num_char)
+# print("당신의 이름은 " + str_num_char + " 글자네여 ")
+
+# 파이썬의 숫자처리 및  F- String
+# 반올림 옵션값이 없을 경우에는 소수점 첫쨰자리에서 반올림
+# print(round(2.4))
+# 옵션값이 있을 경우 ,(콤마) 다음 값은 소수점 n번째 자리까지 값이 표시되어야 한다는 말임으로 n+1자리에서 반올림
+# print(round(2.5415444443322, 2)) 
+# / 나누기 연산자  // 몫 연산자
+# print(4 / 2)
+# print(4 // 2) 
+
+# f - string
+# 문자열 앞에 f를 넣고 {} 중괄호 안에 변수의 값을 넣어 표현 가능
+# str()함수를 사용해서 형변환 하지않아도 되니 편함
+# name = "민수"
+# age = 21
+# print(f"내 이름은 {name}이며 나이는 {age}입니다.")
+# print("")
